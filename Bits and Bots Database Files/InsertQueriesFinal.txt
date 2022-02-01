@@ -1,0 +1,675 @@
+/**
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email);
+**/
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0000', 'Aastha', 'Aadekar', 'password0', '1', '0', 'email0.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0001', 'Barny', 'Balinski', 'password1', '1', '0', 'email1.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0002', 'Carlos', 'Cortez', 'password2', '1', '0', 'email2.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0003', 'Delmont', 'Dale', 'password3', '1', '0', 'email3.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0004', 'Earl', 'Emerson', 'password4', '1', '0', 'email4.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0005', 'Farah', 'Fadah', 'password5', '0', '1', 'email5.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0006', 'Gunter', 'Gerber', 'password6', '0', '1', 'email6.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0007', 'Hana', 'Hwan', 'password7', '0', '1', 'email7.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0008', 'Ibrahim', 'Idowu', 'password8', '0', '1', 'email8.com');
+
+INSERT INTO USER	(User_ID, First_Name, Last_Name, Password, Buyer_Flag, Seller_Flag, Email)
+VALUES				('0009', 'Jeremy', 'Johnson', 'password9', '0', '1', 'email9.com');
+
+/**
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type);
+**/
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1000', '2000', 'part_0', 'description_0', '0.50', '.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1001', '2001', 'part_1', 'description_1', '1.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1002', '2002', 'part_2', 'description_2', '2.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1003', '2003', 'part_3', 'description_3', '3.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1004', '2004', 'part_4', 'description_4', '4.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1005', '2000', 'part_5', 'description_5', '5.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1006', '2001', 'part_6', 'description_6', '6.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1007', '2002', 'part_7', 'description_7', '7.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1008', '2003', 'part_8', 'description_8', '8.50','.stl');
+
+INSERT INTO IP_ITEM	(IP_Item_ID, Store_ID, Title, IP_Description, Price, File_Type)
+VALUES				('1009', '2004', 'part_9', 'description_9', '9.50','.stl');
+
+/**
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						(Image_ID, IP_Item_ID, Title, Image_Description, Image_name, File_type, Upload_Date);
+**/
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3000', '1000', 'description0', 'img0', '.png', '2020-01-01');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3001', '1001', 'description1', 'img1', '.png', '2020-01-02');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3002', '1002', 'description2', 'img2', '.png', '2020-01-03');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3003', '1003', 'description3', 'img3', '.png', '2020-01-04');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3004', '1004', 'description4', 'img4', '.png', '2020-01-05');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3005', '1005', 'description5', 'img5', '.png', '2020-01-06');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3006', '1006', 'description6', 'img6', '.png', '2020-01-07');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3007', '1007', 'description7', 'img7', '.png', '2020-01-08');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3008', '1008', 'description8', 'img8', '.png', '2020-01-09');
+
+INSERT INTO IP_ITEM_IMAGES	(Image_ID, IP_Item_ID, Image_Description, Image_name, File_type, Upload_Date)
+VALUES						('3009', '1009', 'description9', 'img9', '.png', '2020-01-10');
+
+/**
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date);
+**/
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4000', '1000', 'keyword0', '2020-01-01');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4001', '1001', 'keyword1', '2020-01-02');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4002', '1002', 'keyword2', '2020-01-03');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4003', '1003', 'keyword3', '2020-01-04');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4004', '1004', 'keyword4', '2020-01-05');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4005', '1005', 'keyword5', '2020-01-06');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4006', '1006', 'keyword6', '2020-01-07');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4007', '1007', 'keyword7', '2020-01-08');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4008', '1008', 'keyword8', '2020-01-09');
+
+INSERT INTO IP_ITEM_KEYWORDS	(Keyword_ID, IP_Item_ID, Keyword_Name, Upload_Date)
+VALUES							('4009', '1009', 'keyword9', '2020-01-10');
+
+/**
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							(Wishlist_ID, IP_Item_ID);
+**/
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5000', '1000');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5001', '1001');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5002', '1002');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5003', '1003');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5004', '1004');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5005', '1005');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5006', '1006');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5007', '1007');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5008', '1008');
+
+INSERT INTO ITEMS_IN_WISHLIST	(Wishlist_ID, IP_Item_ID)
+VALUES							('5009', '1009');
+
+/**
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					(Wishlist_ID, User_ID);
+**/
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5000', '0005');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5001', '0006');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5002', '0007');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5003', '0008');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5004', '0009');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5005', '0005');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5006', '0006');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5007', '0007');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5008', '0008');
+
+INSERT INTO WISHLIST	(Wishlist_ID, User_ID)
+VALUES					('5009', '0009');
+
+/**
+INSERT INTO ITEM_ADDED_TO_ORDER	(Order_ID, IP_Item_ID, Quantity)
+VALUES							(Order_ID, IP_Item_ID, Quantity)
+**/
+
+INSERT INTO ITEM_ADDED_TO_ORDER	(Order_ID, IP_Item_ID, Quantity)
+VALUES							('6000', '1000', '1');
+
+INSERT INTO ITEM_ADDED_TO_ORDER	(Order_ID, IP_Item_ID, Quantity)
+VALUES							('6001', '1001', '2');
+
+INSERT INTO ITEM_ADDED_TO_ORDER	(Order_ID, IP_Item_ID, Quantity)
+VALUES							('6002', '1002', '3');
+
+INSERT INTO ITEM_ADDED_TO_ORDER	(Order_ID, IP_Item_ID, Quantity)
+VALUES							('6003', '1003', '4');
+
+INSERT INTO ITEM_ADDED_TO_ORDER	(Order_ID, IP_Item_ID, Quantity)
+VALUES							('6004', '1004', '5');
+
+/**
+INSERT INTO ITEM_ORDER	(Order_ID, Order_Date, Price, User_ID)
+VALUES					(Order_ID, Order_Date, Price, User_ID);
+**/
+
+INSERT INTO ITEM_ORDER	(Order_ID, Order_Date, Price, User_ID)
+VALUES					('6000', '2020-01-01', '0.5', '0005');
+
+INSERT INTO ITEM_ORDER	(Order_ID, Order_Date, Price, User_ID)
+VALUES					('6001', '2020-01-02', '3.5', '0006');
+
+INSERT INTO ITEM_ORDER	(Order_ID, Order_Date, Price, User_ID)
+VALUES					('6002', '2020-01-03', '7.5', '0007');
+
+INSERT INTO ITEM_ORDER	(Order_ID, Order_Date, Price, User_ID)
+VALUES					('6003', '2020-01-04', '14', '0008');
+
+INSERT INTO ITEM_ORDER	(Order_ID, Order_Date, Price, User_ID)
+VALUES					('6004', '2020-01-05', '22.5', '0009');
+
+/**
+INSERT INTO IP_ITEM_REVIEWED	(Review_ID, IP_Item_ID)
+VALUES							(Review_ID, IP_Item_ID)
+**/
+
+INSERT INTO IP_ITEM_REVIEWED	(Review_ID, IP_Item_ID)
+VALUES							('7000', '1000');
+
+INSERT INTO IP_ITEM_REVIEWED	(Review_ID, IP_Item_ID)
+VALUES							('7001', '1001');
+
+INSERT INTO IP_ITEM_REVIEWED	(Review_ID, IP_Item_ID)
+VALUES							('7002', '1002');
+
+INSERT INTO IP_ITEM_REVIEWED	(Review_ID, IP_Item_ID)
+VALUES							('7003', '1003');
+
+INSERT INTO IP_ITEM_REVIEWED	(Review_ID, IP_Item_ID)
+VALUES							('7004', '1004');
+
+/**
+INSERT INTO ORDER_REVIEWED	(Review_ID, Order_ID)
+VALUES 						(Review_ID, Order_ID);
+**/
+
+INSERT INTO ORDER_REVIEWED	(Review_ID, Order_ID)
+VALUES 						('7000', '6000');
+
+INSERT INTO ORDER_REVIEWED	(Review_ID, Order_ID)
+VALUES 						('7001', '6001');
+
+INSERT INTO ORDER_REVIEWED	(Review_ID, Order_ID)
+VALUES 						('7002', '6002');
+
+INSERT INTO ORDER_REVIEWED	(Review_ID, Order_ID)
+VALUES 						('7003', '6003');
+
+INSERT INTO ORDER_REVIEWED	(Review_ID, Order_ID)
+VALUES 						('7004', '6004');
+
+/**
+INSERT INTO REVIEW	(Review_ID, Rating, Description, IP_Item_ID, User_ID)
+VALUES				(Review_ID, Rating, Description, IP_Item_ID, User_ID);
+**/
+
+INSERT INTO REVIEW	(Review_ID, Rating, Description, IP_Item_ID, User_ID)
+VALUES				('7000', '1', 'description1', '1000', '0005');
+
+INSERT INTO REVIEW	(Review_ID, Rating, Description, IP_Item_ID, User_ID)
+VALUES				('7001', '2', 'description2', '1001', '0006');
+
+INSERT INTO REVIEW	(Review_ID, Rating, Description, IP_Item_ID, User_ID)
+VALUES				('7002', '3', 'description3', '1002', '0007');
+
+INSERT INTO REVIEW	(Review_ID, Rating, Description, IP_Item_ID, User_ID)
+VALUES				('7003', '4', 'description4', '1003', '0008');
+
+INSERT INTO REVIEW	(Review_ID, Rating, Description, IP_Item_ID, User_ID)
+VALUES				('7004', '5', 'description5', '1004', '0009');
+
+/**
+INSERT INTO VIRTUAL_STORE	(Store_ID, User_ID, Store_Description, Store_Banner, Name, Seller_Bio, Seller_Photo, Store_Category)
+VALUES						(Store_ID, User_ID, Store_Description, Store_Banner, Name, Seller_Bio, Seller_Photo, Store_Category)
+**/
+
+INSERT INTO VIRTUAL_STORE	(Store_ID, User_ID, Store_Description, Store_Banner, Name, Seller_Bio, Store_Category)
+VALUES						('2000', '0000', 'description1', 'banner1', 'store1', 'bio1', 'category1');
+
+INSERT INTO VIRTUAL_STORE	(Store_ID, User_ID, Store_Description, Store_Banner, Name, Seller_Bio, Store_Category)
+VALUES						('2001', '0001', 'description2', 'banner2', 'store2', 'bio2', 'category2');
+
+INSERT INTO VIRTUAL_STORE	(Store_ID, User_ID, Store_Description, Store_Banner, Name, Seller_Bio, Store_Category)
+VALUES						('2002', '0002', 'description3', 'banner3', 'store3', 'bio3', 'category3');
+
+INSERT INTO VIRTUAL_STORE	(Store_ID, User_ID, Store_Description, Store_Banner, Name, Seller_Bio, Store_Category)
+VALUES						('2003', '0003', 'description4', 'banner4', 'store4', 'bio4', 'category4');
+
+INSERT INTO VIRTUAL_STORE	(Store_ID, User_ID, Store_Description, Store_Banner, Name, Seller_Bio, Store_Category)
+VALUES						('2004', '0004', 'description5', 'banner5', 'store5', 'bio5', 'category5');
+
+/**
+INSERT INTO VIRTUAL_STORE_URLS	(URL_ID, URL_Name, URL_Link, Store_ID, Upload_Date)
+VALUES							(URL_ID, URL_Name, URL_Link, Store_ID, Upload_Date)
+**/
+
+INSERT INTO VIRTUAL_STORE_URLS	(URL_ID, URL_Name, URL_Link, Store_ID, Upload_Date)
+VALUES							('8000', 'store1URL', 'store1.com', '2000', '2019-01-01');
+
+INSERT INTO VIRTUAL_STORE_URLS	(URL_ID, URL_Name, URL_Link, Store_ID, Upload_Date)
+VALUES							('8001', 'store2URL', 'store2.com', '2001', '2019-01-02');
+
+INSERT INTO VIRTUAL_STORE_URLS	(URL_ID, URL_Name, URL_Link, Store_ID, Upload_Date)
+VALUES							('8002', 'store3URL', 'store3.com', '2002', '2019-01-03');
+
+INSERT INTO VIRTUAL_STORE_URLS	(URL_ID, URL_Name, URL_Link, Store_ID, Upload_Date)
+VALUES							('8003', 'store4URL', 'store4.com', '2003', '2019-01-04');
+
+INSERT INTO VIRTUAL_STORE_URLS	(URL_ID, URL_Name, URL_Link, Store_ID, Upload_Date)
+VALUES							('8004', 'store5URL', 'store5.com', '2004', '2019-01-05');
+
+/**
+INSERT INTO STORE_CATEGORIES	(Store_Category_ID, Category_Name, Description, Store_ID)
+VALUES							(Store_Category_ID, Category_Name, Description, Store_ID)
+**/
+
+INSERT INTO STORE_CATEGORIES	(Store_Category_ID, Category_Name, Description, Store_ID)
+VALUES							('9000', 'category1', 'description1', '2000');
+
+INSERT INTO STORE_CATEGORIES	(Store_Category_ID, Category_Name, Description, Store_ID)
+VALUES							('9001', 'category2', 'description2', '2001');
+
+INSERT INTO STORE_CATEGORIES	(Store_Category_ID, Category_Name, Description, Store_ID)
+VALUES							('9002', 'category3', 'description3', '2002');
+
+INSERT INTO STORE_CATEGORIES	(Store_Category_ID, Category_Name, Description, Store_ID)
+VALUES							('9003', 'category4', 'description4', '2003');
+
+INSERT INTO STORE_CATEGORIES	(Store_Category_ID, Category_Name, Description, Store_ID)
+VALUES							('9004', 'category5', 'description5', '2004');
+
+/**
+INSERT INTO CHARGES	(Charge_ID, Payment_Method_ID, Charge_Amount)
+VALUES				(Charge_ID, Payment_Method_ID, Charge_Amount)
+**/
+
+INSERT INTO CHARGES	(Charge_ID, Payment_Method_ID, Charge_Amount)
+VALUES				('10000', '11000', '0.5');
+
+INSERT INTO CHARGES	(Charge_ID, Payment_Method_ID, Charge_Amount)
+VALUES				('10001', '11001', '3.5');
+
+INSERT INTO CHARGES	(Charge_ID, Payment_Method_ID, Charge_Amount)
+VALUES				('10002', '11002', '7.5');
+
+INSERT INTO CHARGES	(Charge_ID, Payment_Method_ID, Charge_Amount)
+VALUES				('10003', '11003', '14');
+
+INSERT INTO CHARGES	(Charge_ID, Payment_Method_ID, Charge_Amount)
+VALUES				('10004', '11004', '22.5');
+
+/**
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						(Payment_Method_ID, Preferred_Payment, Charge_ID)
+**/
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11000', '0', '10000');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11001', '0', '10001');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11002', '0', '10002');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11003', '0', '10003');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11004', '0', '10004');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11005', '0', '10005');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11006', '0', '10006');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11007', '0', '10007');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11008', '0', '10008');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11009', '0', '10009');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11010', '0', '10010');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11011', '0', '10011');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11012', '0', '10012');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11013', '0', '10013');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11014', '0', '10014');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11015', '0', '10015');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11016', '0', '10016');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11017', '0', '10017');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11018', '0', '10018');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11019', '0', '10019');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11020', '0', '10020');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11021', '0', '10021');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11022', '0', '10022');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11023', '0', '10023');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11024', '0', '10024');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11025', '0', '10025');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11026', '0', '10026');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11027', '0', '10027');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11028', '0', '10028');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11029', '0', '10029');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11030', '0', '10030');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11031', '0', '10031');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11032', '0', '10032');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11033', '0', '10033');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11034', '0', '10034');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11035', '0', '10035');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11036', '0', '10036');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11037', '0', '10037');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11038', '0', '10038');
+
+INSERT INTO PAYMENT_METHODS	(Payment_Method_ID, Preferred_Payment, Charge_ID)
+VALUES						('11039', '0', '10039');
+
+/**
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+**/
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11000', 'Aastha Adekar', '12000', '10000', '0000');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11001', 'Barny Balinski', '12001', '10001', '0001');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11002', 'Carlos Cortez', '12002', '10002', '0002');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11003', 'Delmont Dale', '12003', '10003', '0003');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11004', 'Earl Emerson', '12004', '10004', '0004');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11005', 'Farah Fadah', '12005', '10005', '0005');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11006', 'Gunter Gerber', '12006', '10006', '0006');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11007', 'Hana Hwan', '12007', '10007', '0007');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11008', 'Ibrahim Idowu', '12008', '10008', '0008');
+
+INSERT INTO BANK_ACCOUNT	(Payment_Method_ID, Account_Holder_Name, Account_Number, Charge_ID, User_ID)
+VALUES						('11009', 'Jeremy Johnson', '12009', '10009', '0009');
+
+/**
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+**/
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11010', '010', '1101001011010010', 'Aastha Adekar', '10010', '0000');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11011', '011', '1101101111011011', 'Barny Balinski', '10011', '0001');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11012', '012', '1101201211012012', 'Carlos Cortez', '10012', '0002');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11013', '013', '1101301311013013', 'Delmont Dale', '10013', '0003');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11014', '014', '1101401411014014', 'Earl Emerson', '10014', '0004');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11015', '015', '1101501511015015', 'Farah Fadah', '10015', '0005');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11016', '016', '1101601611016016', 'Gunter Gerber', '10016', '0006');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11017', '017', '1101701711017017', 'Hana Hwan', '10017', '0007');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11018', '018', '1101801811018018', 'Ibrahim Idowu', '10018', '0008');
+
+INSERT INTO CREDIT_CARD	(Payment_Method_ID, CVV, Card_Number, Cardholder_Name, Charge_ID, User_ID)
+VALUES					('11019', '019', '1101901911019019', 'Jeremy Johnson', '10019', '0009');
+
+/**
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+**/
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11020', '13000', '100', '10020', '0000');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11021', '13001', '100', '10021', '0001');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11022', '13002', '100', '10022', '0002');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11023', '13003', '100', '10023', '0003');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11024', '13004', '100', '10024', '0004');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11025', '13005', '100', '10025', '0005');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11026', '13006', '100', '10026', '0006');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11027', '13007', '100', '10027', '0007');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11028', '13008', '100', '10028', '0008');
+
+INSERT INTO KARMA	(Payment_Method_ID, Karma_Wallet_ID, Karma_Balance, Charge_ID, User_ID)
+VALUES				('11029', '13009', '100', '10029', '0009');
+
+/**
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+**/
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11030', '14000', '10030', '0000');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11031', '14001', '10031', '0001');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11032', '14002', '10032', '0002');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11033', '14003', '10033', '0003');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11034', '14004', '10034', '0004');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11035', '14005', '10035', '0005');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11036', '14006', '10036', '0006');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11037', '14007', '10037', '0007');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11038', '14008', '10038', '0008');
+
+INSERT INTO CRYPTO	(Payment_Method_ID, Crypto_Wallet_ID, Charge_ID, User_ID)
+VALUES				('11039', '14009', '10039', '0009');
+
+SELECT * FROM USER;
+SELECT * FROM IP_ITEM;
+SELECT * FROM IP_ITEM_IMAGES;
+SELECT * FROM IP_ITEM_KEYWORDS;
+SELECT * FROM ITEMS_IN_WISHLIST;
+SELECT * FROM WISHLIST;
+SELECT * FROM ITEM_ADDED_TO_ORDER;
+SELECT * FROM ITEM_ORDER;
+SELECT * FROM IP_ITEM_REVIEWED;
+SELECT * FROM ORDER_REVIEWED;
+SELECT * FROM REVIEW;
+SELECT * FROM VIRTUAL_STORE;
+SELECT * FROM VIRTUAL_STORE_URLS;
+SELECT * FROM STORE_CATEGORIES;
+SELECT * FROM CHARGES;
+SELECT * FROM PAYMENT_METHODS;
+SELECT * FROM BANK_ACCOUNT;
+SELECT * FROM CREDIT_CARD;
+SELECT * FROM KARMA;
+SELECT * FROM CRYPTO;
